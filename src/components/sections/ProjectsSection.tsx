@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { ExternalLink, GitHub } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface Project {
@@ -100,7 +100,7 @@ const ProjectsSection = () => {
                       className="p-2 rounded-full hover:bg-secondary transition-colors"
                       aria-label="View GitHub repository"
                     >
-                      <GitHub className="h-5 w-5" />
+                      <Github className="h-5 w-5" />
                     </a>
                   )}
                   
